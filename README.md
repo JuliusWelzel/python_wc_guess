@@ -11,7 +11,7 @@ This script uses statistical models to predict the scores of Women's World Cup m
    ```
 3. When prompted, enter the names of the two teams playing the match.
 4. The script will predict the scores for the match and display the result.
-5. The predicted scores for the match will be displayed.
+5. If you wish to predict another match, you will be given the opportunity to enter two new teams. If you wish to stop the script, type 'quit' when prompted to enter Team 1.
 
 ## How It Works
 
