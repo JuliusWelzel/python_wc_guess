@@ -9,6 +9,7 @@ setup(
         'pandas>=1.3.0',
         'statsmodels>=0.13.0',
         'rapidfuzz>=1.5.1',
+        'scikit-learn>=1.3',
     ],
     extras_require={
         'dev': [
