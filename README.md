@@ -1,6 +1,6 @@
 # Women's World Cup Prediction
 
-This script uses statistical models to predict the scores of Women's World Cup matches based on historical data. It utilizes the `pandas`, `statsmodels`, and `rapidfuzz` libraries to load and analyze the data.
+This script uses statistical models to predict the scores of Women's World Cup matches based on historical data. It utilizes the `pandas`, `statsmodels`, `rapidfuzz`, and `scikit-learn` libraries to load and analyze the data.
 ## Setup
 
 Make sure you have [python](https://www.python.org/) >= 3.9 installed. Then run
