@@ -1,3 +1,4 @@
+import numpy as np
 import pandas as pd
 import statsmodels.api as sm
 from statsmodels.formula.api import glm
@@ -22,7 +23,7 @@ df['year'] = df['date'].dt.year
 
 # Create a weight column with higher weight for recent years
 scaler = MinMaxScaler()
-df['weight'] = 2023 - df['year']  # update this value with the current year
+df['weight'] = np.exp(2023 - df['year'])
 df['weight'] = scaler.fit_transform(df[['weight']])
 
 # Define formulas for the models
