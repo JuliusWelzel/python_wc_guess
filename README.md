@@ -11,10 +11,10 @@ to install the necessary packages.
 
 ## Usage
 
-1. Make sure you have the Women's World Cup data file (`womens-world-cup.csv`) in the same directory as the script.
+1. Make sure you have the Women's World Cup data file (`match_data.csv`) in the same directory as the script.
 2. Run the script:
    ```shell
-   python predict_scores.py
+   python predict_outcome.py
    ```
 3. When prompted, enter the names of the two teams playing the match.
 4. The script will predict the scores for the match and display the result.
