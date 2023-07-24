@@ -1,0 +1,16 @@
+date,home_team,away_team,home_score,away_score,tournament,city,country,neutral
+2023-07-20,New Zealand,Norway,1,0,World Cup,Eden Park,Eden Park,FALSE
+2023-07-21,Philippines,Switzerland,0,2,World Cup,Forsyth Barr Stadium,Forsyth Barr Stadium,FALSE
+2023-07-20,Australia,Republic of Ireland,1,0,World Cup,Stadium Australia,Stadium Australia,FALSE
+2023-07-21,Nigeria,Canada,0,0,World Cup,Melbourne Rectangular Stadium,Melbourne Rectangular Stadium,FALSE
+2023-07-21,Spain,Costa Rica,3,0,World Cup,Wellington Regional Stadium,Wellington Regional Stadium,FALSE
+2023-07-22,Zambia,Japan,0,5,World Cup,Waikato Stadium,Waikato Stadium,FALSE
+2023-07-22,England,Haiti,1,0,World Cup,Lang Park,Lang Park,FALSE
+2023-07-22,Denmark,China,1,0,World Cup,Perth Rectangular Stadium,Perth Rectangular Stadium,FALSE
+2023-07-22,United States,Vietnam,3,0,World Cup,Eden Park,Eden Park,FALSE
+2023-07-23,Netherlands,Portugal,1,0,World Cup,Forsyth Barr Stadium,Forsyth Barr Stadium,FALSE
+2023-07-23,France,Jamaica,0,0,World Cup,Sydney Football Stadium,Sydney Football Stadium,FALSE
+2023-07-24,Brazil,Panama,4,0,World Cup,Hindmarsh Stadium,Hindmarsh Stadium,FALSE
+2023-07-23,Sweden,South Africa,2,1,World Cup,Wellington Regional Stadium,Wellington Regional Stadium,FALSE
+2023-07-24,Italy,Argentina,1,0,World Cup,Eden Park,Eden Park,FALSE
+2023-07-24,Germany,Morocco,6,0,World Cup,Melbourne Rectangular Stadium,Melbourne Rectangular Stadium,FALSE
