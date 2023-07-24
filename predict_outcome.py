@@ -23,7 +23,24 @@ df['year'] = df['date'].dt.year
 
 # Create a weight column with higher weight for recent years
 scaler = MinMaxScaler()
-df['weight'] = np.exp(2023 - df['year'])
+df['weight'] = np.exp(df['year'] - 2022)
+
+# Load data for the ongoing tournament
+df_ongoing = pd.read_csv('ongoing_tournament_data.csv')
+
+df_ongoing = df_ongoing[['date', 'away_team', 'home_team', 'away_score', 'home_score']].copy()
+df_ongoing.columns = ['date', 'team1', 'team2', 'team1_score', 'team2_score']
+
+# Convert date to datetime and extract year for the ongoing tournament data
+df_ongoing['date'] = pd.to_datetime(df_ongoing['date'])
+df_ongoing['year'] = df_ongoing['date'].dt.year
+
+# Create a weight column with higher weight for the ongoing tournament (100 times higher)
+scaler = MinMaxScaler()
+df_ongoing['weight'] = np.exp(df_ongoing['year'] - 2022) * 100
+
+# Combine ongoing tournament data with historical data
+df = pd.concat([df, df_ongoing])
 df['weight'] = scaler.fit_transform(df[['weight']])
 
 # Define formulas for the models
