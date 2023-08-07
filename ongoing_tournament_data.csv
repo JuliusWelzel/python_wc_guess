@@ -33,11 +33,23 @@ date,home_team,away_team,home_score,away_score,tournament,city,country,neutral
 2023-07-24,Brazil,Panama,4,0,World Cup,Hindmarsh Stadium,Hindmarsh Stadium,FALSE
 2023-07-29,France,Brazil,2,1,World Cup,Lang Park,Lang Park,FALSE
 2023-07-29,Panama,Jamaica,0,1,World Cup,Perth Rectangular Stadium,Perth Rectangular Stadium,FALSE
+2023-08-02,Panama,France,3,6,World Cup,Sydney Football Stadium,Sydney Football Stadium,FALSE
+2023-08-02,Jamaica,Brazil,0,0,World Cup,Melbourne Rectangular Stadium,Melbourne Rectangular Stadium,FALSE
 2023-07-23,Sweden,South Africa,2,1,World Cup,Wellington Regional Stadium,Wellington Regional Stadium,FALSE
 2023-07-24,Italy,Argentina,1,0,World Cup,Eden Park,Eden Park,FALSE
 2023-07-28,Argentina,South Africa,2,2,World Cup,Forsyth Barr Stadium,Forsyth Barr Stadium,FALSE
 2023-07-29,Sweden,Italy,5,0,World Cup,Wellington Regional Stadium,Wellington Regional Stadium,FALSE
+2023-08-02,Argentina,Sweden,0,2,World Cup,Waikato Stadium,Waikato Stadium,FALSE
+2023-08-02,South Africa,Italy,3,2,World Cup,Wellington Regional Stadium,Wellington Regional Stadium,FALSE
 2023-07-24,Germany,Morocco,6,0,World Cup,Melbourne Rectangular Stadium,Melbourne Rectangular Stadium,FALSE
 2023-07-25,Colombia,South Korea,2,0,World Cup,Sydney Football Stadium,Sydney Football Stadium,FALSE
 2023-07-30,South Korea,Morocco,0,1,World Cup,Hindmarsh Stadium,Hindmarsh Stadium,FALSE
 2023-07-30,Germany,Colombia,1,2,World Cup,Sydney Football Stadium,Sydney Football Stadium,FALSE
+2023-08-03,South Korea,Germany,1,1,World Cup,Lang Park,Lang Park,FALSE
+2023-08-03,Morocco,Colombia,1,0,World Cup,Perth Rectangular Stadium,Perth Rectangular Stadium,FALSE
+2023-08-05,Switzerland,Spain,1,5,World Cup,Eden Park,Eden Park,FALSE
+2023-08-05,Japan,Norway,3,1,World Cup,Wellington Regional Stadium,Wellington Regional Stadium,FALSE
+2023-08-06,Netherlands,South Africa,2,0,World Cup,Sydney Football Stadium,Sydney Football Stadium,FALSE
+2023-08-06,Sweden,United States,0,0,World Cup,Melbourne Rectangular Stadium,Melbourne Rectangular Stadium,FALSE
+2023-08-07,England,Nigeria,0,0,World Cup,Lang Park,Lang Park,FALSE
+2023-08-07,Australia,Denmark,2,0,World Cup,Stadium Australia,Stadium Australia,FALSE

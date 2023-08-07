@@ -36,7 +36,7 @@ def scrape_table_data(url):
         date = extract_date(date_string)
         home_team = container.find('th', class_='fhome').get_text(strip=True)
         away_team = container.find('th', class_='faway').get_text(strip=True)
-        score = container.find('th', class_='fscore').get_text(strip=True)
+        score = container.find('th', class_='fscore').get_text(strip=True).rstrip('(a.e.t.)')
 
         # Skip matches with the string 'Match' in the score
         if 'Match' in score:
